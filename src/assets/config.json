@@ -1,0 +1,33 @@
+{
+  "supervisionUrls": ["wss://ocpp.js.eco/JUICE"],
+  "supervisionUrlDistribution": "round-robin",
+  "log": {
+    "file": "logs/combined.log",
+    "errorFile": "logs/error.log",
+    "maxFiles": 7,
+    "statisticsInterval": 0
+  },
+  "worker": {
+    "processType": "workerSet"
+  },
+  "performanceStorage": {
+    "enabled": true,
+    "type": "none"
+  },
+  "uiServer": {
+    "enabled": true,
+    "type": "ws",
+    "authentication": {
+      "enabled": true,
+      "type": "protocol-basic-auth",
+      "username": "admin",
+      "password": "admin"
+    }
+  },
+  "stationTemplateUrls": [
+    {
+      "file": "siemens.station-template.json",
+      "numberOfStations": 1
+    }
+  ]
+}

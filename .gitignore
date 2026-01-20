@@ -1,6 +1,6 @@
 # config
-src/assets/config*.json
-!src/assets/config-template.json
+#src/assets/config*.json
+#!src/assets/config-template.json
 src/scripts/scriptConfig.json
 src/assets/*idtags*.json
 !src/assets/idtags-template.json
