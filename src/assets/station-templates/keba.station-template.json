@@ -2,7 +2,7 @@
   "supervisionUrlOcppConfiguration": true,
   "supervisionUrlOcppKey": "CentralSystemAddress",
   "idTagsFile": "idtags.json",
-  "baseName": "CS-KEBA",
+  "baseName": "JUICELAB1",
   "chargePointModel": "KC-P30-ESS400C2-E0R",
   "chargePointVendor": "Keba AG",
   "firmwareVersion": "1.10.1",

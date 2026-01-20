@@ -1,6 +1,6 @@
 {
   "idTagsFile": "idtags.json",
-  "baseName": "CS-BASIC",
+  "baseName": "JUICELAB1",
   "chargePointModel": "Simulator simple",
   "chargePointVendor": "Ovomaltin",
   "power": 75000,

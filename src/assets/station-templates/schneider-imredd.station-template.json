@@ -2,7 +2,7 @@
   "supervisionUrlOcppConfiguration": true,
   "supervisionUrlOcppKey": "ocppcentraladdress",
   "idTagsFile": "idtags.json",
-  "baseName": "CS-SCHNEIDER",
+  "baseName": "JUICELAB1",
   "chargePointModel": "MONOBLOCK",
   "chargePointVendor": "Schneider Electric",
   "chargeBoxSerialNumberPrefix": "EV.2S22P04",
