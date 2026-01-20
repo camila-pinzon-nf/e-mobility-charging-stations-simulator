@@ -132,7 +132,7 @@ await describe('G02 - Heartbeat', async () => {
         chargePointSerialNumber: 'ALT-SN-002',
         chargePointVendor: 'Alternative Vendor',
         firmwareVersion: '2.5.1',
-        ocppStrictCompliance: true,
+        ocppStrictCompliance: false,
         ocppVersion: OCPPVersion.VERSION_201,
       },
       websocketPingInterval: 45,

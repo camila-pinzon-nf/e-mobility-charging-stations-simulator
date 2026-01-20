@@ -67,7 +67,7 @@ export class Constants {
     mainVoltageMeterValues: true,
     meteringPerTransaction: true,
     ocppPersistentConfiguration: true,
-    ocppStrictCompliance: true,
+    ocppStrictCompliance: false,
     ocppVersion: OCPPVersion.VERSION_16,
     outOfOrderEndMeterValues: false,
     phaseLineToLineVoltageMeterValues: false,

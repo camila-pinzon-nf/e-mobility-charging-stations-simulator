@@ -2,7 +2,7 @@
   "supervisionUrlOcppConfiguration": true,
   "supervisionUrlOcppKey": "ocppcentraladdress",
   "idTagsFile": "idtags.json",
-  "baseName": "CS-SCHNEIDER-EVSES",
+  "baseName": "JUICELAB1",
   "chargePointModel": "MONOBLOCK",
   "chargePointVendor": "Schneider Electric",
   "chargeBoxSerialNumberPrefix": "EV.2S22P44",
@@ -10,6 +10,8 @@
   "firmwareVersion": "3.3.0.10",
   "power": 44160,
   "powerUnit": "W",
+  "ocppStrictCompliance": false,
+
   "voltageOut": 231,
   "amperageLimitationOcppKey": "maxintensitysocket",
   "Configuration": {

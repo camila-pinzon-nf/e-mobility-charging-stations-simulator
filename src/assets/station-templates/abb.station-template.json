@@ -1,6 +1,6 @@
 {
   "idTagsFile": "idtags.json",
-  "baseName": "CS-ABB",
+  "baseName": "JUICELAB1",
   "chargePointModel": "MD_TERRA_53",
   "chargePointVendor": "ABB",
   "firmwareVersionPattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$",
@@ -14,6 +14,8 @@
   "randomConnectors": false,
   "resetTime": 30,
   "enableStatistics": false,
+    "ocppStrictCompliance": false,
+
   "Configuration": {
     "configurationKey": [
       {

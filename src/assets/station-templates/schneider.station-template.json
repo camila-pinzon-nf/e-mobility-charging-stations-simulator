@@ -2,7 +2,7 @@
   "supervisionUrlOcppConfiguration": true,
   "supervisionUrlOcppKey": "ocppcentraladdress",
   "idTagsFile": "idtags.json",
-  "baseName": "CS-SCHNEIDER",
+  "baseName": "JUICELAB1",
   "chargePointModel": "MONOBLOCK",
   "chargePointVendor": "Schneider Electric",
   "chargeBoxSerialNumberPrefix": "EV.2S22P44",
@@ -11,6 +11,8 @@
   "power": 44160,
   "powerUnit": "W",
   "numberOfConnectors": 2,
+  "ocppStrictCompliance": false,
+
   "randomConnectors": false,
   "voltageOut": 231,
   "amperageLimitationOcppKey": "maxintensitysocket",

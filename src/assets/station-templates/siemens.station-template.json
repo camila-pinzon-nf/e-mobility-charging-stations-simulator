@@ -1,6 +1,6 @@
 {
   "idTagsFile": "idtags.json",
-  "baseName": "CS-SIEMENS",
+  "baseName": "JUICELAB1",
   "fixedName": true,
   "chargePointModel": "SIEMENSXX213",
   "chargePointVendor": "SIEMENS",
@@ -9,6 +9,8 @@
   "numberOfConnectors": 2,
   "randomConnectors": false,
   "voltageOut": 240,
+  "ocppStrictCompliance": false,
+
   "Configuration": {
     "configurationKey": [
       {
@@ -61,7 +63,7 @@
   "Connectors": {
     "0": {},
     "1": {
-      "bootStatus": "Unavailable",
+      "bootStatus": "Preparing",
       "MeterValues": [
         {
           "unit": "Wh",
@@ -70,6 +72,7 @@
       ]
     },
     "2": {
+      "bootStatus": "Preparing",
       "MeterValues": [
         {
           "context": "Sample.Periodic",

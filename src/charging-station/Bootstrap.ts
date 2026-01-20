@@ -159,6 +159,7 @@ export class Bootstrap extends EventEmitter {
       ++templateStatistics.added
       templateStatistics.indexes.add(index)
     }
+    console.log("stationInfo>>>", stationInfo)
     return stationInfo
   }
 

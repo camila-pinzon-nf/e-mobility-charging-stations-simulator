@@ -129,7 +129,7 @@ const state = ref<{
   autoStart: false,
   enableStatistics: false,
   numberOfStations: 1,
-  ocppStrictCompliance: true,
+  ocppStrictCompliance: false,
   persistentConfiguration: true,
   renderTemplates: randomUUID(),
   supervisionUrl: '',

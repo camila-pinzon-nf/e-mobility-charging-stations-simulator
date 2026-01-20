@@ -1,6 +1,6 @@
 {
   "idTagsFile": "idtags.json",
-  "baseName": "CS-BASIC",
+  "baseName": "JUICELAB1",
   "chargePointModel": "Simulator simple",
   "chargePointVendor": "Ovomaltin",
   "power": 50000,
@@ -8,6 +8,8 @@
   "powerSharedByConnectors": true,
   "currentOutType": "DC",
   "numberOfConnectors": 3,
+  "ocppStrictCompliance": false,
+
   "randomConnectors": false,
   "Configuration": {
     "configurationKey": [
